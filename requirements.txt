@@ -12,4 +12,3 @@ numpy
 datetime
 panel
 scipy
-make_interp_spline
