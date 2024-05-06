@@ -197,7 +197,8 @@ def page2():
         main=[bound_plot],
     ).servable();
     return kuvio2
+
 ROUTES = {
     "1": page1, "2": page2
 }
-pn.serve(ROUTES)
+#pn.serve(ROUTES)
