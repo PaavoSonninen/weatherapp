@@ -184,7 +184,7 @@ def page1():
         site="Panel",
         title="Getting Started App222",
         main=[month_plot],
-    ).servable()
+    ).servable();
     return kuvio
 
 def page2():
@@ -195,7 +195,7 @@ def page2():
         site="Panel",
         title="Getting Started App 2",
         main=[bound_plot],
-    ).servable()
+    ).servable();
     return kuvio2
 ROUTES = {
     "1": page1, "2": page2
