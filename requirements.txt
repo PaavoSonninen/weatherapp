@@ -11,4 +11,4 @@ scikit_learn
 numpy
 datetime
 panel
-scipy==1.13.0
+scipy==1.26.4
