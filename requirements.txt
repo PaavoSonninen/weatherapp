@@ -11,5 +11,5 @@ scikit_learn
 numpy
 datetime
 panel
-scipy.interpolate
+scipy
 make_interp_spline
