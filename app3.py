@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import panel as pn
 import streamlit as st
+from scipy.interpolate import make_interp_spline
 
 df_weather=pd.read_csv('weather.csv')
 df=df_weather.copy()
