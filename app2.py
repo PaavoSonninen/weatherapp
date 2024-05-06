@@ -203,4 +203,4 @@ ROUTES = {
     "1": page1, "2": page2
 }
 #pn.serve(ROUTES);
-pn.panel(ROUTES).servable()
+pn.panel(ROUTES).servable();
