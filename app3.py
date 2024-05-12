@@ -177,13 +177,13 @@ def get_plot_month(df_month):
     return fig
 
 pn.extension()
-#bound_plot = pn.pane.Matplotlib(get_plot(df_temp))
-month_plot = pn.pane.Matplotlib(get_plot_month(df_month))
+bound_plot = pn.pane.Matplotlib(get_plot(df_temp))
+#month_plot = pn.pane.Matplotlib(get_plot_month(df_month))
 #bound_plot=pn.pane.Matplotlib(bound_plot)
 pn.template.MaterialTemplate(
 site="Panel",
 title="Getting Started App222",
-main=[month_plot],
+main=[bound_plot],
 ).servable();
 
 # def page1():
